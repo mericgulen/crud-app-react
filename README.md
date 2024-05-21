@@ -1,6 +1,6 @@
 # CRUD Application
 
-- This is a simple CRUD (Create, Read, Update, Delete) application built using React, json-server, axios, react-toastify, uuid, useState, and useEffect. The application allows users to perform basic CRUD operations on a list of items.
+- This is a simple CRUD (Create, Read, Update, Delete) application built using React, Vite, json-server, axios, react-toastify, uuid, useState, and useEffect. The application allows users to perform basic CRUD operations on a list of items.
 
 ### Features
 
@@ -13,6 +13,7 @@
 ## Technologies Used
 
 - React: A JavaScript library for building user interfaces
+- Vite: A fast build tool and development server for modern web projects
 - json-server: A full fake REST API with zero coding
 - axios: A promise-based HTTP client for the browser and Node.js
 - react-toastify: A library for providing notifications
@@ -33,7 +34,7 @@
 
 - Start the json-server: npm run server
 
-- Start the React application: npm start
+- Start the React application: npm run dev
 
 ## Usage
 
@@ -44,3 +45,5 @@
 - Update Item: Click the "Edit" button next to an item to update its details.
 
 - Delete Item: Click the "Delete" button next to an item to remove it from the list.
+
+- Notifications: Notifications are shown for each CRUD operation using react-toastify.
