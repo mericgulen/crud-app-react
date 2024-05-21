@@ -1,0 +1,18 @@
+body {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #253748;
+  min-height: 100vh;
+}
+.btn {
+  padding: 5px 15px;
+}
+.text--color {
+  color: #59b4c3;
+}
+
+.list-flex {
+  grid-template-columns: 1fr auto;
+  font-size: 16px;
+  background-color: #344d65;
+  box-shadow: 0 1px 12px rgba(255, 255, 255, 0.6);
+}
